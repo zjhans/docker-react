@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I edited <code>src/App.js</code> and saved it but it did not show up when I reloaded. I bet it will now, and so will this. And just to prove           a point, I will add some more text.
+          I edited <code>src/App.js</code> and this copy is for the <i>Feature</i> branch.
         </p>
         <a
           className="App-link"
