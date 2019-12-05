@@ -14,4 +14,6 @@ RUN npm run build
 #Start the run phase of our Docker deplyment
 FROM nginx
 
+EXPOSE 80
+
 COPY --from=builder /app/build /usr/share/nginx/html
